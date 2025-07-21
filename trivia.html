@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Height Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>My Kyudo Journey</header>
+  <nav>
+    <a href="Home.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="trivia.html">Trivia</a>
+  </nav>
+  <div class="container">
+    <aside class="left">
+      <h3>Kyudo Links</h3>
+      <ul>
+        <li><a href="https://www.ikyf.org/" target="_blank">International Kyudo Federation</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Kyudo" target="_blank">Wikipedia: Kyudo</a></li>
+        <li><a href="https://www.youtube.com/results?search_query=kyudo+form" target="_blank">YouTube: Kyudo Form</a></li>
+        <li><a href="https://kyudo.jp/" target="_blank">全日本弓道連盟 (Japanese)</a></li>
+      </ul>
+    </aside>
+    <main>
+      <h2>Child Height Predictor</h2>
+      <p>Input parents' height to predict future child's height range.</p>
+      <label>Father's Height (cm): <input type="number" id="father"></label><br><br>
+      <label>Mother's Height (cm): <input type="number" id="mother"></label><br><br>
+      <label><input type="radio" name="gender" value="boy" checked> Boy</label>
+      <label><input type="radio" name="gender" value="girl"> Girl</label><br><br>
+      <button onclick="predictHeight()">Predict</button>
+      <p id="output"></p>
+    </main>
+    <aside class="right">
+      <h3>Contact Me</h3>
+      <form>
+        <input type="text" placeholder="Your name"><br>
+        <input type="email" placeholder="Email"><br>
+        <textarea placeholder="Message"></textarea><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+      </form>
+    </aside>
+  </div>
+  <footer>Created on 2025/07/21 | <a href="#">My Blog</a></footer>
+</body>
+</html>

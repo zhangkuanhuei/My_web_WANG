@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  header, nav, footer {
+    background-color: #2e3b55;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  aside.left {
+    width: 20%;
+    background: #f2f2f2;
+    padding: 10px;
+  }
+  
+  main {
+    width: 60%;
+    background: #ffffff;
+    padding: 10px;
+  }
+  
+  aside.right {
+    width: 20%;
+    background: #e6f7ff;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 10px;
+  }
+  
